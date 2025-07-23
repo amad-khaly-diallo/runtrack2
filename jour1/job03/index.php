@@ -78,7 +78,7 @@ $fruits = ["orange", "banane", "kiwi"]
                 <td> $phrase </td>
                 <td> <?php echo $char; ?> </td>
             </tr>
-            <tr>
+            <tr> 
                 <td> array ( tableau) </td>
                 <td> $fruits </td>
                 <td> <?php echo $fruits[0]; ?> </td>

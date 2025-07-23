@@ -1,6 +1,6 @@
 <?php
 
-$hauteur = 10;
+$hauteur = 15;
 
 /*
 j'ai considerer le le triangle comme un rectangle dont certaines parties sont invisible (juste des espacement --> &nbsp;)
