@@ -20,7 +20,7 @@
     <form method="post" action="">
         <label for="style">Choisissez un style :</label>
         <select name="stylesheet" id="style">
-            <option value="style1.css" <?= ($style == "style1.css") ? "selected" : "" ?>>style 1</option>
+            <option value="style1.css"<?= ($style == "style1.css") ? "selected" : "" ?>>style 1</option>
             <option value="style2.css" <?= ($style == "style2.css") ? "selected" : "" ?>>style 2</option>
             <option value="style3.css" <?= ($style == "style3.css") ? "selected" : "" ?>>style 3</option>
         </select>

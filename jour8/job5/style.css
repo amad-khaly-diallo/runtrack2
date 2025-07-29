@@ -1,0 +1,35 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-display {
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 2px solid #333;
+    background: #fff;
+    transition: background 0.2s;
+}
+
+td:hover {
+    background: #e0e0e0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
